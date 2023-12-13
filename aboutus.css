@@ -124,10 +124,25 @@
         object-fit: cover;
         padding: 5px;
     }
-    .page-switch a{
-        font-size: 10px;
+    .slide i{
+        padding: 15px;
+        font-size: 30px;
+        display: block;
+        color: black;
+    }
+    .page-switch{
+        position: fixed;
+        left: -100%;
+        top: 90px;
+        height: 90vh;
+        width: 100%;
+        line-height: 60px;
+        background-color: transparent;
+        display: flex;
         flex-direction: column;
-        padding: 5px;
+        justify-content: start;
+        padding-top: 70px;
+        color: black;
     }
     .dec{
         padding: 50px 10px;
@@ -157,10 +172,25 @@
         object-fit: cover;
         padding: 5px;
     }
-    .page-switch a{
-        font-size: 16px;
+    .slide i{
+        padding: 15px;
+        font-size: 30px;
+        display: block;
+        color: black;
+    }
+    .page-switch{
+        position: fixed;
+        left: -100%;
+        top: 90px;
+        height: 90vh;
+        width: 100%;
+        line-height: 60px;
+        background-color: transparent;
+        display: flex;
         flex-direction: column;
-        padding: 10px;
+        justify-content: start;
+        padding-top: 70px;
+        color: black;
     }
     .down-one, .down-two, .down-three, .down-icon, .down-image{
         width: 60%;

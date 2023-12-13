@@ -181,10 +181,25 @@ form h1{
         object-fit: cover;
         padding: 5px;
     }
-    .page-switch a{
-        font-size: 10px;
+    .slide i{
+        padding: 15px;
+        font-size: 30px;
+        display: block;
+        color: black;
+    }
+    .page-switch{
+        position: fixed;
+        left: -100%;
+        top: 90px;
+        height: 90vh;
+        width: 100%;
+        line-height: 60px;
+        background-color: transparent;
+        display: flex;
         flex-direction: column;
-        padding: 5px;
+        justify-content: start;
+        padding-top: 70px;
+        color: black;
     }
     .page-switch a:hover{
         border: 2px solid crimson;
@@ -233,6 +248,26 @@ form h1{
         position: relative;
         justify-content: center;
         justify-content: space-between;
+    }
+    .slide i{
+        padding: 15px;
+        font-size: 30px;
+        display: block;
+        color: black;
+    }
+    .page-switch{
+        position: fixed;
+        left: -100%;
+        top: 90px;
+        height: 90vh;
+        width: 100%;
+        line-height: 60px;
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        padding-top: 70px;
+        color: black;
     }
     
     .register{

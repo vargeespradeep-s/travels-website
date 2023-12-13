@@ -39,7 +39,15 @@
     object-fit: cover; 
     padding: 10px;  
 }
+.slide i,.page-title input{
+    display: none;
+}
 
+.page-title input:checked~.page-switch{
+    background-color: transparent;
+    left: 0%;
+    transition: 2s;
+}
 nav{
     display: flex;
     flex-wrap: wrap;

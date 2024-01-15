@@ -20,31 +20,33 @@
     width:100% ;
     height: 100vh;
     object-fit: cover;
+    filter: brightness(70%);
 }
 .page-title{
     width: 98%;
     border-radius: 15px;
     border: 2px solid #fffd8c;
     position: fixed;
-    top: 20px;
+    top: 10px;
     left: 10px;
     padding: 0px 20px;
     display: flex;
     justify-content: space-between;
     box-shadow: 2px 2px 5px 5px #FFFD8C;
+    z-index: 10;
 }
 .page-title img{
-    width: 125px;
-    height: 125px;
+    width: 75px;
+    height: 75px;
     object-fit: cover;
-    padding: 10px;
+    padding: 5px;
 }
 .slide i,.page-title input{
     display: none;
 }
 
 .page-title input:checked~.page-switch{
-    background-color: transparent;
+    background-color: #AEE2FF;
     left: 0%;
     transition: 2s;
 }
@@ -58,7 +60,7 @@
     text-decoration: none;
     font-size:large; 
     border: 2px solid transparent;
-    color: white;
+    color:#F5EEE6;
     transition: all 2s;
 }
 .page-switch a:hover{
@@ -66,7 +68,8 @@
     padding: 10px 20px;
     border-radius: 15px;
     box-shadow: 2px 2px crimson;
-    color:#00FFC6 ;
+    color:#FFB000 ;
+    text-decoration: underline;
 }
                     /* middle */
 .middle{
@@ -121,8 +124,9 @@
 .cab input:focus{
     outline: none;
 }
-.cab button{
+.cab a{
     padding: 10px 20px;
+    text-decoration: none;
     background-color: lightblue;
     color: crimson;
     border: 3px solid #FFFD8C;
@@ -130,9 +134,10 @@
     font-size: 20px;
     transition: all 2s;
 }
-.cab button:hover{
+.cab a:hover{
     border: 3px solid salmon;
     background-color: lightpink;
+    text-decoration: underline;
 }
 
 
@@ -211,6 +216,7 @@
     }
     .cab{
         width: 90%;
+        padding: 20px 5px;
     }
     .cab label{
         padding: 20px 5px;

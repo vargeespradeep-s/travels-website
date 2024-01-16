@@ -46,7 +46,7 @@
 }
 
 .page-title input:checked~.page-switch{
-    background-color: #AEE2FF;
+    background-color: rgba(255, 255, 255, 0.093);
     left: 0%;
     transition: 2s;
 }
@@ -91,9 +91,9 @@
     padding: 15px;
     font-size: 20px;
     border-radius: 15px;
-    background: linear-gradient(to right, #CAEDFF 0%, #FFC7EA 100%);
-    box-shadow: 5px 5px 10px 10px #79E0EE;
+    background: #AEDEFC;
 }
+
 .book-box{
     display: flex;
     justify-content: start;
@@ -118,13 +118,12 @@
     font-size: 20px;
 }
 .cab input:hover{
-    box-shadow: 5px 5px 5px 5px #00FFC6;
     background-color: white;
 }
 .cab input:focus{
     outline: none;
 }
-.cab a{
+.cab button{
     padding: 10px 20px;
     text-decoration: none;
     background-color: lightblue;
@@ -134,10 +133,13 @@
     font-size: 20px;
     transition: all 2s;
 }
-.cab a:hover{
+.cab button:hover{
     border: 3px solid salmon;
     background-color: lightpink;
     text-decoration: underline;
+}
+.a-tag{
+    text-decoration: none;
 }
 
 
@@ -152,12 +154,52 @@
 .down-one, .down-two, .down-three{
     line-height: 27px;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     width: 25%;
+    cursor: pointer;
+}
+.down-one p:hover, .down-two p:hover, .down-three p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.t-dec{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.down-one h3:hover, .down-two h3:hover, .down-three h3:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
 .down-icon{
     width: 20%;
+    color: white;
     font-size: 30px;
+    padding: 2px;
+}
+.fa-brands{
+    color: white;
+    padding: 2px;
+}
+.fa-facebook:hover{
+    background-color: royalblue;
+    border-radius: 50%;
+    padding: 2px;
+}
+.fa-x-twitter:hover{
+    background-color:black;
+    border-radius: 40%;
+    padding: 2px;
+}
+.fa-instagram:hover{
+    background-image:  linear-gradient(45deg,red,orange,yellow);
+    border-radius: 30%;
+    padding: 2px;
+}
+.fa-youtube:hover{
+    background-color: red;
+    border-radius: 30%;
+    padding: 2px;
 }
 .down-image{
     width: 20%;
@@ -204,7 +246,7 @@
         color: black;
     }
     .page-switch a{
-        font-size: 30px;
+        font-size: 25px;
     }
     .booking{
         width: 100%;
